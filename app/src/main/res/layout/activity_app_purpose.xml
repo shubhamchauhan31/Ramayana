@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activity.AppPurpose">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/app_purpose_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/custom_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/app_purpose_back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:src="@drawable/ic_baseline_arrow_back_ios_24" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="30dp"
+                android:gravity="center"
+                android:text="App का उद्देश्य"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_below="@+id/app_purpose_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="।। जय श्री राम ।।    ।। जय बजरंग बली।। "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="धर्म-प्रेमियों के मन मे अक्सर प्रश्न आता है कि, श्री बाल्मीकि-रामायण App के निर्माण का क्या उद्देश्य है...?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="प्रभु श्रीराम जी के चरणकमलों का ध्यान करते हुए, आपको अवगत कराते हुए बहुत अधिक हर्ष हो रहा है कि,
+आज के समय मे, अर्थात कलयुग में, जिधर देखेंगे, जहां तक देखेंगे..., स्वयं सनातनियो का, हमारे धर्म के धार्मिक ग्रंथों से दूरी थोड़ी अधिक बढ़ी हुई प्रतीत होती है, आज के समय मे प्रभु श्रीराम जी की लीलाकथाओं एवं धर्म ग्रंथों में जो सार, जो ज्ञान, जो मनुष्य जीवन के लिये कल्याणकारी निर्देश, दुर्लभ ज्ञान है, उनसे मनुष्य की दूरी होती जा रही है।
+जिस कारण, आज के समय मे मनुष्य, सब सुख-सुविधाओं के प्राप्त होने के बाद भी, कही ना कही खुद को कमजोर अथवा दुखी या यूं कहें, खुद पर प्रभु कृपा की कमी महसूस करता है।
+चूंकि भगवान स्वयं कहते है कि धर्म ग्रंथों, रामायण इत्यादि पढ़ने से, सुनने से व कथन से भी, प्रभु की कृपा व पुण्यों की प्राप्ति होती है।"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="ब्रह्मऋषि सनकादि श्रीमद्भागवत महापुराण में कहते हैं....
+श्लोकार्धं श्लोकपादं वा नित्यं भागवतोद्भवम्।
+पठस्व स्वमुखेनैव यदीच्छसि परां गतिम्॥"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="
+अर्थ :- यदि आपको परम गति की इच्छा है तो अपने मुख से ही श्रीमद्भागवत के आधे अथवा चौथाई श्लोक का भी नित्य नियम पूर्वक पाठ कीजिये॥
+श्रीमद्भागवत पुराण का ही नही किसी भी ग्रंथ का यदि मनुष्य प्रतिदिन एक श्लोक या उसका आधा श्लोक पड़ता है तो उसका कल्याण सुनिश्चित है।"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="हम सभी बढ़े भाग्यशाली हैं क्योंकि मुक्ति प्राप्त कराने बाला यह मानव तन हमे प्राप्त हुआ है इस जीवन को ऐसे ही नष्ट नहीं होने देना है।
+
+देवर्षि नारद जी श्रीमद्भागवत महापुराण में कहते हैं...."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="भाग्योदयेन बहुजन्मसमर्जितेन सत्सङ्गमं च लभते पुरुषो यदा वै। अज्ञानहेतुकृतमोहमदान्धकार नाशं विधाय हि तदोदयते विवेकः॥"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="अर्थ :- जब अनेकों जन्मों के संचित पुण्यपुञ्ज का उदय होने से मनुष्य को सत्सङ्ग मिलता है, तब वह उसके अज्ञानजनित मोह और मदरूप अन्धकार का नाश करके विवेक उदय होता है॥
+अर्थात अनेकों जन्मों के बाद यह मनुष्य तन प्राप्त होता है और उसमें अभी अनेकों जन्मों के पुण्य पुंज जब मिलते हैं तब कहीं जाकर हमें मुक्ति प्रदान कराने बाले ऐसे सद्ग्रन्थों को पढ़ने का सौभाग्य प्राप्त होता है अतः अपना कल्याण चाहने बाले प्रत्येक भक्त को चाहिए वह नित्य प्रतिदिन ग्रंथों का अध्यन व अवलोकन करें।
+"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="इसी प्रयोजन से हम यह बाल्मीकि रामयण एप्स आप सभी के समक्ष लेकर आये हैं ताकि इस अमृतसुधा का सभी भक्त प्रेमी जन रसास्वादन कर सकें...."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="तत्कथासु तु वेदार्थः श्लोके श्लोके पदे पदे॥
+क्योंकि उस कथाके प्रत्येक श्लोक और प्रत्येक पद में भी वेदों का ही तो सारांश है॥
+"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="अतः
+ग्रन्थ-वचन व उनकी टीम का, प्रभु श्रीराम जी की अनुकम्पा से यह श्री बाल्मीकि-रामायण का App निर्माण किया गया है, जिससे आप, बिना किसी समस्या के, अपने घर बैठकर, यात्राओं में या, जब भी आपको समय मिले, प्रभु श्रीराम जी की लीला-कथाओं को पढ़कर, अपना जीवन व अपने स्वजनों के जीवन के लिये कल्याणकारी प्रभु कृपा दृष्टि प्राप्त कर सके।"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="धर्म मनुष्य मे जीवन के महत्व को स्पष्ट करता है, पवित्र भावनाओं को पैदा करता है एवं मानसिक तनाव व चिन्ताओं से दूर रखकर गलत, समाज विरोधी व धर्म विरोधी कार्यों के प्रति घृणा को पैदा करता है। इस तरह धर्म व्यक्ति के व्यक्तित्व का विकास करता है एवं उसे सुख समृद्धि हेतु धार्मिक नियमों के अनुरूप आचरण के लिए प्रेरित करता है।"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="धर्म के नियमों पर चलने के उपरांत मानव हृदय निर्मल हो जाता है तथा इस स्थिति में करुणा जन्म लेती है। करुणा के कारण दया व क्षमा का भाव जाग्रत होता है। इन दोनों गुणों के कारण मानव, मानव से प्रेम करने लगता है व दूसरों को दुख से निकालने की कोशिश करने लगता है। ... पहले समाज में अग्रणी लोगों में दया व दान की भावना थी।
+हमारा सनातन-धर्म हमें जीने का तरीका सिखाता है । हम कैसे जीते है, कैसे खाते हैं, क्या खाते हैं, क्या सोचते है और कैसे सोचते है। ये सब हमारे धर्म पर निर्भर करता है। धर्म हमें विश्वास करना सिखाता है। धर्म दया है, धर्म क्षमा है, विनम्र है, सहनशील है, परोपकार है।
+"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="भगवान श्रीकृष्णजी ने धर्म के पांच आधार बताये है
+ज्ञान, प्रेम, न्याय, समर्पण और धीरज। प्रत्येक मनुष्य का जन्म इन 5 आधारों को प्राप्त करने के लिए होता है।
+जिसमे से, हम  पवित्र रामकथा, श्रीरामचरितमानस, श्री बाल्मीकि-रामायण (प्रस्तुत App), चारों वेद, शास्त्र, उपनिषद, 18 पुराण, महाभारत, श्रीमदभागवत-गीता एवं अन्य धर्म गर्न्थो के माध्यम से, भगवान के बताए पहले आधार...ज्ञान देने का प्रयास कर रहे है, वो भी बहुत साधारण व सरल तरीके वाली आध्यात्मिक-प्रत्तियोगिता के माध्यम से।
+            "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/app_purpose_telegram"
+                android:padding="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="@drawable/border_bg"
+                android:textColor="@color/white"
+                android:text=" Telegram Channel "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:padding="1dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text=" (इस पर क्लिक करके, सीधे टेलीग्राम-समूह से जुड़े) "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:padding="1dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="इस आध्यात्मिक प्रतियोगिता के माध्यम से हम, सम्पूर्ण भारतवर्ष ही नही, बल्कि समस्त विश्वभर के सनातन प्रेमियों को इससे जोड़ना चाहते है जिससे, सम्पूर्ण विश्व मे सनातन-धर्म की ध्वज पताका लहराए और, देश-दुनिया के अधिक से अधिक धर्म प्रेमी, धर्म के मूल आधार को समझे, आत्मसात करके, अपने जीवन को प्रभु के श्री चरणों मे समर्पित करते हुए, अपना व अपने स्वजनों का कल्याण करवाने में सहायक सिद्ध हो।"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:padding="1dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="आशा ही नही, बल्कि हमे पूर्ण विश्वास है कि, आपके जीवन मे यह श्री बाल्मीकि-रामायण App, कल्याणकारी सिद्ध होगा और आप इस App को अपने अन्य स्वजनों व जानने वालों को भी प्रेषित करेंगे अर्थात डाउनलोड करवाएंगे, जिससे उनके भी जीवन मे कल्याण ही कल्याण, अनान्द ही अनान्द हो।"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:padding="1dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="इन्ही शुभेच्छाओ के साथ, टीम ग्रन्थ-वचन आपका आभार व्यक्त करती है। "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="।। जय श्री राम ।।    ।। जय बजरंग बली।।*"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

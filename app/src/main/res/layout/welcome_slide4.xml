@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/background"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_star_24"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_star_24"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <ImageView
+
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_star_24"
+            android:layout_width="150dp"
+            android:layout_height="150dp"/>
+        <ImageView
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_star_24"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <ImageView
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_star_24"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:text="आपके विचार आमंत्रित है।"
+        android:textSize="20dp"
+        android:fontFamily="@font/hind_vadodara_light"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:text="प्रभु श्रीराम जी राम-कथा को डिजिटल-रूप में प्रस्तुत करने का हमारा यह प्रयास कैसा लगा, इसके लिये आपके विचार, हमारे लिये बहुत ही लाभकारी होंगे। आपके सद्विचार ही हमारे लिये, प्रभु का आशीर्वाद स्वरूपी पुरुष्कार है। किसी भी प्रकार की त्रुटि, सुझाव अथवा App सम्बंधित विचारों का स्वागत है, इसके लिये हमें आप सूचित अवश्य करे, हम आपके विचारों, सुझावों व  शिकायतो पर अवश्य ही कार्य करेंगे और प्रभु श्रीराम जी का नाम लेते हुए, App को 5 स्टार अवश्य देवे।"
+        android:textSize="15dp"
+        android:fontFamily="@font/hind_vadodara_light"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:text="।। जय श्री राम।।"
+        android:textSize="20dp"
+        android:fontFamily="@font/hind_vadodara_light"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:text="।। जय बजरंग बली।। "
+        android:textSize="20dp"
+        android:fontFamily="@font/hind_vadodara_light"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

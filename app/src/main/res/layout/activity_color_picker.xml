@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ColorPickerActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Toolbar
+            android:id="@+id/color_picker_toolbar"
+            android:background="@color/purple_200"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="NewApi">
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/colored_picker_bck_btn"
+                    android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_weight="4"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:text="Select Color"
+                    android:textSize="20dp" />
+
+
+
+            </LinearLayout>
+
+
+        </Toolbar>
+
+
+
+        <LinearLayout
+            android:id="@+id/color_picker_layout_one"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:background="@color/purple_200"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:text="Some Default Theme :-"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:id="@+id/color_picker_tv_colored"
+                    android:background="@drawable/border_bg"
+                    android:text="Colored"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"/>
+
+                <TextView
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:id="@+id/colored_picker_tv_dark"
+                    android:background="@drawable/border_bg"
+                    android:text="Dark"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"/>
+
+                <TextView
+                    android:id="@+id/colored_picker_tv_light"
+                    android:background="@drawable/border_bg"
+                    android:text="Light"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:gravity="left"
+                android:id="@+id/color_picker_sanskrit_doha_tv"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:padding="2dp"
+                android:background="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/hind_vadodara_light"
+                android:layout_gravity="center"
+                android:text="श्रीरामः शरणं समस्तजगता
+बताया
+रामेण प्रतिहल्यते कलिमलें
+रामाय कार्य
+संसार
+रामात् जस्थति कालभीमभुजगो
+वशे
+रामे भक्तिरखण्डिता भवतु मे
+राम त्वमेवाश्रयः ॥१॥
+"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/color_picker_hindi_meaning_tv"
+                android:textColor="@color/purple_200"
+                android:textSize="10dp"
+                android:padding="2dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:fontFamily="@font/hind_vadodara_light"
+                android:layout_gravity="center"
+                android:text="ओरामचन्द्रजो समस्त संसारको शरण देनेवाले हैं। एतत्सं
+ओउनके बिना दूसरी कौन-सी गति है। औराम कलियुगके कलौ
+समस्त दोर्शको नष्ट कर देते हैं। अतः ओरामचन्द्रजीको
+नमस्कार करना चाहिये। श्रीरामसे कालरूपी भयंकर आपने
+से भी डरता है। जगत्का सब कुछ भगवान् श्रीरामके जायेंगे
+कशाने है। औराममें मेरी अखण्ड भक्ति बनी रहे। हे राम! अधर्मी
+आर हो मेरे आधार हैं।
+"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/color_picker_layout_two"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:background="@color/purple_200"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Or Choose Your Own Clors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:padding="5dp"
+                    android:layout_weight="3"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:background="@color/black"
+                    android:text="Sortha/dhoa"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"/>
+                <ImageView
+                    android:id="@+id/color_picker_sanskrit_tv_background"
+                    android:src="@drawable/ic_baseline_border_color_24"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:padding="5dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:background="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:padding="5dp"
+                    android:id="@+id/color_picker_hindi_text"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:src="@drawable/ic_baseline_local_parking_24"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:background="@color/black"
+                    android:text="Sortha/dhoa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:padding="5dp"
+                    android:layout_weight="3"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:background="@color/black"
+                    android:text="Chaupai"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"/>
+                <ImageView
+                    android:src="@drawable/ic_baseline_border_color_24"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:padding="5dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:background="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:padding="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:src="@drawable/ic_baseline_local_parking_24"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:background="@color/black"
+                    android:text="Sortha/dhoa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:padding="5dp"
+                    android:layout_weight="3"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:background="@color/black"
+                    android:text="Arth"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"/>
+                <ImageView
+                    android:src="@drawable/ic_baseline_border_color_24"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:padding="5dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:background="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:padding="5dp"
+                    android:src="@drawable/ic_baseline_local_parking_24"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:background="@color/black"
+                    android:text="Sortha/dhoa"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

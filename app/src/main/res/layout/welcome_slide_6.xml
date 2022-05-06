@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    >
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind_vadodara_light"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="।। सनातन-मार्ग पर ओर अधिक बढ़े ।।"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:padding="5dp"
+            android:fontFamily="@font/hind_vadodara_light"
+            android:text="  अत्यधिक प्रसन्नता के साथ आपको जानकारी दे रहे है कि, "
+            android:gravity="left"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:fontFamily="@font/hind_vadodara_light"
+            android:text="प्रभु श्रीराम जी से जुड़ी पवित्र राम-कथा पर आधारित एवं चारों वेद, छः शास्त्र, सम्पूर्ण उपनिषद, 18 पुराणों, महाभारत, सम्पूर्ण रामायण तथा श्रीमद्भगवत गीता एवं अन्य अन्य धर्म गर्न्थो पर आधारित, गर्न्थो में छुपे दुर्लभ रहस्यों की जानकारी व ज्ञान इत्यादि के लिए टेलीग्राम "
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginTop="2dp"
+            android:text="पर, प्रतियोगिता के माध्यम से, ज्ञानवर्धन नित्यप्रतिदिन कराया जाता है।
+इस अध्यात्मिक-प्रतियोगिता से जुड़ने के लिये, नीचे दिए गए बटन पर क्लिक करके आप, सीधे टेलीग्राम से जुड़कर, धर्म ज्ञान लाभ उठा सकते हैं।
+ "
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+      <!--  <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="#3655FB"
+            android:text="https://t.me/AdhyatmikPratiyogita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+-->
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:textSize="15dp"
+            android:padding="1dp"
+
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="इसके अतिरिक्त, आप हमारे नीचे दिए गए You Tube वाले बटन पर क्लिक करके, सीधे You Tube चैनल से जुड़ जाए, वहां आपको बहुत ही सरल माध्यम से, दुर्लभ जानकारियां मिलेंगी।"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/hind_vadodara_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:padding="1dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:text="Our youtube channel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/information_welcome_slide_six_youtube"
+            android:padding="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:textColor="#3655FB"
+            android:text="Click Here To Join Youtube Channel "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:padding="1dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="आप हमारे Facebook Page से भी जुड़ सकते है।"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:padding="1dp"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:text=" Our Facebook Page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:padding="1dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:layout_gravity="left"
+            android:textColor="#3655FB"
+            android:text="Click Here To Join Facebook Page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

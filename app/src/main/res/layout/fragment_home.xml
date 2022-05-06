@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/frame_layout_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".activity.ui.home.HomeFragment">
+
+
+    <LinearLayout
+        android:id="@+id/home_layout"
+        android:visibility="visible"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bookmark"
+            android:backgroundTint="@color/purple_200"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:padding="2dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/book_mark"
+                android:layout_width="70dp"
+                android:layout_height="70dp"/>
+            <TextView
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:fontFamily="@font/uncial_antiqua"
+                android:layout_gravity="center"
+                android:text=" वाल्मीकी रामायण किताब  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:id="@+id/path_vidhi_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="2"
+                android:background="@drawable/custom_theme"
+                android:fontFamily="@font/uncial_antiqua"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="पाठ विधि "
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/home_parayan_vidhi_btn"
+                android:layout_weight="2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_theme"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:padding="15dp"
+                android:fontFamily="@font/uncial_antiqua"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="पारायण विधि"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:id="@+id/home_balkand_btn"
+                android:layout_weight="2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_theme"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/uncial_antiqua"
+                android:textColor="@color/white"
+                android:padding="15dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="बालकाण्ड"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/home_ayodhya_kand"
+                android:layout_weight="2"
+                android:fontFamily="@font/uncial_antiqua"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_theme"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="अयोध्याकांड"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/home_aranya_kand"
+                android:layout_weight="2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_theme"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/uncial_antiqua"
+                android:textColor="@color/white"
+                android:padding="15dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="अरण्यकाण्ड"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/home_kishkindha_kand"
+                android:layout_weight="2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_theme"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/uncial_antiqua"
+                android:textColor="@color/white"
+                android:padding="15dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="किष्किंधाकाण्ड"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/home_sundara_kand"
+                android:layout_weight="2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_theme"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/uncial_antiqua"
+                android:textColor="@color/white"
+                android:padding="15dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="सुंदरकाण्ड "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/home_lanka_kand"
+                android:layout_weight="2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_theme"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/uncial_antiqua"
+                android:textColor="@color/white"
+                android:padding="15dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="लंकाकाण्ड "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/home_uttar_kand"
+                android:layout_weight="2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_theme"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/uncial_antiqua"
+                android:textColor="@color/white"
+                android:padding="15dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="उत्तर कांड"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/home_shri_ram_wallpaper"
+                android:layout_weight="2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_theme"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:fontFamily="@font/uncial_antiqua"
+                android:padding="15dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="श्री राम वॉलपेपर "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/home_ramayan_arti"
+                android:layout_weight="2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_theme"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:padding="15dp"
+                android:gravity="center"
+                android:fontFamily="@font/uncial_antiqua"
+                android:layout_gravity="center"
+                android:text="रामायण आरती"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/home_search"
+                android:layout_weight="2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_theme"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:padding="15dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/home_company_name"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#1e1e1e"
+        android:textSize="10dp"
+        android:padding="10dp"
+        android:text="Developed By Arramton Infotech Pvt.Ltd"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</FrameLayout>

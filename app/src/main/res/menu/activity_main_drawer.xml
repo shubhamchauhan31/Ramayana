@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="होम " />
+        <item
+            android:id="@+id/nav_path_vidhi"
+            android:title="पाठ विधि " />
+        <item
+            android:id="@+id/parayan_vidhi"
+            android:title="पारायण विधि" />
+        <item
+            android:id="@+id/balkand"
+            android:title="बालकाण्ड" />
+        <item
+            android:id="@+id/ayodhya_kand"
+            android:title="अयोध्याकांड"/>
+
+        <item
+            android:id="@+id/aranya_kand"
+            android:title="अरण्यकाण्ड"
+            />
+        <item
+            android:id="@+id/kishkindha_kand"
+            android:title="किष्किंधाकाण्ड"
+            />
+
+        <item
+            android:id="@+id/sundara_kanda"
+            android:title="सुंदरकाण्ड"
+            />
+
+        <item
+            android:id="@+id/lanka_kand"
+            android:title="लंकाकाण्ड"
+            />
+        <item
+            android:id="@+id/my_fav_dohe"
+            android:title="मेरा प्रिय दोहे" />
+
+        <item
+            android:id="@+id/ramayan_arti"
+            android:title="रामायण आरती" />
+
+    </group>
+</menu>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/kishkindha_kand_drawer"
+    tools:context=".activity.KishkindhakandActivity">
+
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/kishkindha_kand_coordinator_layout"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:id="@+id/kishkindha_kand_linear_layout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/kishkindha_kand_toolbar"
+                android:background="@drawable/custom_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="NewApi" >
+
+                <LinearLayout
+
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="2dp"
+                        android:id="@+id/kishikindha_kand_activity_drawer_btn"
+                        android:src="@drawable/ic_baseline_menu_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:text=""
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"/>
+
+                    <ImageView
+                        android:id="@+id/kishikindha_kand_activity_zoom_in"
+                        android:layout_marginStart="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_baseline_zoom_in_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="RtlCompat" />
+
+                    <ImageView
+                        android:id="@+id/kishikindha_kand_activity_zoom_out"
+                        android:layout_marginStart="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_baseline_zoom_out_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="RtlCompat" />
+
+
+                    <ImageView
+                        android:id="@+id/kishkindha_kand_activity_fav_dhoe"
+                        android:layout_marginStart="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_baseline_favorite_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="RtlCompat" />
+
+                    <ImageView
+                        android:id="@+id/kishkindha_kand_activity_search_dhoe"
+                        android:layout_marginStart="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_baseline_search_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="RtlCompat" />
+
+
+                </LinearLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <Spinner
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_toolbar"
+                android:popupBackground="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:id="@+id/kishkindha_kand_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/btn_bg"
+                android:textSize="25dp"
+                android:padding="5dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="प्रथमोऽध्यायः"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+        <LinearLayout
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:gravity="bottom|end"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+
+
+            <Button
+                android:background="@drawable/custom_toolbar"
+                android:id="@+id/balkand_activity_first_btn"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:fontFamily="@font/uncial_antiqua"
+                android:textStyle="bold"
+                android:text="@string/first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:background="@drawable/custom_toolbar"
+                android:id="@+id/balkand_activity_prev_btn"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:text="@string/prev"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:background="@drawable/custom_toolbar"
+                android:id="@+id/balkand_activity_next_btn"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:text="@string/next"
+                android:fontFamily="@font/uncial_antiqua"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:background="@drawable/custom_toolbar"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:id="@+id/balkand_activity_last_btn"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:text="@string/last"
+                android:fontFamily="@font/uncial_antiqua"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/kishkindha_kand_nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:visibility="gone"
+            android:background="@color/purple_500"
+            android:fitsSystemWindows="true"
+            app:headerLayout="@layout/nav_header_main"
+            app:menu="@menu/activity_main_drawer"
+            tools:ignore="MissingConstraints" />
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

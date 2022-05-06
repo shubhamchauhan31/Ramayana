@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activity.JoinUsActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/join_us_toolbar"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/join_us_back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_arrow_back_ios_24" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="हमसे जुड़ें "
+                android:textColor="@color/white"
+                android:layout_marginEnd="30dp"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/join_us_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:orientation="vertical">
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:text="।। मर्यादा पुरुषोत्तम प्रभु श्री राम की जय।।"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="परमपवित्र श्री हरि के चरणकमलों में, यह श्री बाल्मीकि रामायण App को समर्पित करते हुए, बड़े ही हर्ष के साथ आपको जानकारी दे रहे है कि आप हमसे सीधे, नीचे लिखे माध्यमो के साथ जुड़ सकते है, "
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="नीचे दिए बटन पर क्लिक करके आप हमसे, सीधे टेलीग्राम से जुड़े"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/join_us_telegram_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/border_bg"
+                    android:padding="1dp"
+                    android:text=" Telegram Group"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="इस बटन के द्वारा आप सीधे,You Tube से जुड़े"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/join_us_youtube_channel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/border_bg"
+                    android:padding="1dp"
+                    android:text="Youtube Channel "
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="यहां क्लिक करके आप, Facebook से जुड़े"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/join_us_facebook_page"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/border_bg"
+                    android:padding="1dp"
+                    android:text=" Facebook Page"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="हमारा सीधा, सरल व एक मात्र उद्देश्य है कि हम, सम्पूर्ण भारतवर्ष के साथ साथ, पूरे विश्व के सनातन-धर्म प्रेमियों को, धर्म के इस अथाह सागर से, सोशल मीडिया के माध्यम से जोड़कर उनके जीवन मे, अध्यात्म बीज अंकुरित कर, उनके जीवन का कल्याण, उनके ही माध्यम से सुलभ करावें।
+
+ग्रन्थ-वचन व उनकी टीम, विगत कई वर्षों से, Whats App, Facebook, टेलीग्राम, You Tube, इंस्टाग्राम जैसे सोशल मीडिया के प्लेटफार्मों पर, निःशुल्क, प्रभु श्रीराम जी की राम-कथाओं एवं चारों वेद, शास्त्र, उपनिषद, श्रीमदभगवत-गीता, 18 पुराण एवं सम्पूर्ण रामायण आदि अनेकों धर्म-गर्न्थो का, बहुत ही सरल माध्यम से अध्ययन करवाते हुए, उन्हें धर्म ग्रन्थों द्वारा प्रदत्त ज्ञान, जानकारियां प्रदान करवा रहे है और समाज मे फैली भ्रांतियां एवं त्रुटियों को दूर करने का प्रयास कर रहे है।
+
+        प्रभु श्रीराम जी से जुड़ी पवित्र राम-कथा पर आधारित सम्पूर्ण रामायण महाकाव्य एवं चारों वेद, शास्त्र, उपनिषद, 18 पुराण, महाभारत तथा श्रीमद्भगवत गीता एवं अन्य सभी धर्म ग्रंथों से, ग्रंथों में छुपे दुर्लभ रहस्यों, ज्ञान इत्यादि के लिए *टेलीग्राम पर, प्रतियोगिता के माध्यम से, ज्ञानवर्धन नित्यप्रतिदिन कराया जाता है।"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="10dp"
+                    android:text="इस अध्यात्मिक-प्रतियोगिता से जुड़ने के लिये, नीचे दिए गए बटन पर क्लिक करके आप, सीधे टेलीग्राम से जुड़कर, धर्म ज्ञान लाभ उठा सकते हैं।"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/join_us_telegram_channel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/border_bg"
+                    android:text="Telegram Channel"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:text="
+इसके अतिरिक्त, आप हमारे नीचे दिए गए You Tube वाले बटन पर क्लिक करके, सीधे You Tube चैनल से जुड़ जाए, वहां आपको बहुत ही सरल माध्यम से, दुर्लभ जानकारियां मिलेंगी।
+ "
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="ग्रन्थ-वचन व टीम आपसे निवेदन करती है कि, आप  हमसे उपरोक्त माध्यमो से जुड़े तथा यह App अपने सभी जानने वालों के साथ साझा (Share) करे और साथ ही, उन सभी धर्म प्रेमियों को हमारे, टेलीग्राम, फेसबुक, You Tube आदि माध्यमो से भी जुड़वाए ताकि सनातन धर्म की सम्पूर्ण जानकारी प्रत्येक सनातनी तक पहुँच सकें और हमारे प्लेटफार्मों से मिलने वाले प्रभु कृपा प्रसाद का अपने निजी जीवन मे स्वंम सुखद अनुभव करें।"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="हमारा यह प्रयास कैसा है, इसके लिये आपके सभी प्रकार के सद्विचार आमंत्रित है।"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="।। जय जय सियाराम ।।"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

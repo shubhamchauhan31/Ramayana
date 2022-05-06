@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ramayan" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/baba"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/baba"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ramayan"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name=".drawer.DrawerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/Theme.Ramayan.NoActionBar" />
+        <activity
+            android:name=".activity.SaragActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.JoinUsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.AppMemberActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.AppPurpose"
+            android:exported="true" />
+        <activity android:name=".activity.ColorPickerActivity" />
+        <activity android:name=".activity.WallpaperActivity" />
+        <activity android:name=".activity.UttarKandActivity" />
+        <activity android:name=".activity.SunderKandActivity" />
+        <activity android:name=".activity.RamayanArtiActivity" />
+        <activity android:name=".activity.ParayanVidhiActivity" />
+        <activity android:name=".activity.LankaKandActivity" />
+        <activity android:name=".activity.KishkindhakandActivity" />
+        <activity android:name=".activity.AyodhyaKandActivity" />
+        <activity android:name=".activity.AranayaKandActivity" />
+        <activity android:name=".activity.PathVidhiActivity" />
+        <activity android:name=".activity.BalkandActivity" />
+        <activity android:name=".activity.SearchActivity" />
+        <activity android:name=".activity.InformationActivity" />
+        <activity android:name=".activity.MyFavActivity" />
+        <activity
+            android:name=".activity.ValmikiActivity"
+            android:label="@string/title_activity_valmiki"
+            android:theme="@style/Theme.Ramayan.NoActionBar" />
+        <activity android:name=".activity.HomeActivity" />
+        <activity android:name=".activity.SkipLoginActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

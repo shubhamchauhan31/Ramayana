@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="start"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/balkand_second_adhya_drawer_layout"
+    tools:context=".fragments.BalkandSecondAdhyaFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/balkand_second_adhya_toolbar"
+            android:background="@color/purple_500"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints,NewApi" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="बालकाण्डे"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_gravity="end|right"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:gravity="right"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_marginStart="10dp"
+                        android:id="@+id/balkand_second_adhya_zoom_in"
+                        android:layout_gravity="center"
+                        android:src="@drawable/zoom_in"
+                        android:layout_marginEnd="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="RtlCompat" />
+                    <ImageView
+                        android:id="@+id/balkand_second_adhya_zoom_out"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/zoom_out"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="RtlCompat" />
+
+                    <ImageView
+                        android:id="@+id/balkand_second_adhya_fav_dhoe"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="5dp"
+                        android:src="@drawable/ic_baseline_favorite_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="RtlCompat" />
+
+                    <ImageView
+                        android:id="@+id/balkand_second_adhya_search_dhoe"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_gravity="right"
+                        android:src="@drawable/ic_baseline_search_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="RtlCompat" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <TextView
+            android:id="@+id/balkand_second_adhya_title_one"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@drawable/bookmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ॥ बालकाण्डे द्वितीयः सर्गः ॥" />
+
+
+
+
+    </LinearLayout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+
+
+            <Button
+                android:id="@+id/balkand_second_adhya_first_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/spinner_bg"
+                android:text="@string/first"
+                android:fontFamily="@font/uncial_antiqua"
+                android:textStyle="bold"
+                android:textColor="@color/white" />
+
+            <Button
+                android:background="@drawable/spinner_bg"
+                android:id="@+id/balkand_second_adhya_prev_btn"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/uncial_antiqua"
+                android:textStyle="bold"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:text="@string/prev"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:background="@drawable/spinner_bg"
+                android:id="@+id/balkand_second_adhya_next_btn"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/uncial_antiqua"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="@string/next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:background="@drawable/spinner_bg"
+                android:id="@+id/balkand_second_adhya_last_btn"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:text="@string/last"
+                android:fontFamily="@font/uncial_antiqua"
+                android:textStyle="bold"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/balkand_second_adhya_nav_view"
+        android:background="@color/purple_500"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:itemTextColor="@color/white"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer" />
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

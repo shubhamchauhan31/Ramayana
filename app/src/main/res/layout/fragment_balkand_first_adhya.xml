@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/balkand_drawer_layout"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.BalkandFirstAdhyaFragment">
+
+    <ScrollView
+    android:layout_marginBottom="60dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <include
+                layout="@layout/balkand_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+              <Spinner
+                android:id="@+id/balkand_first_adhya_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/spinner_bg"
+                android:popupBackground="@color/colorPrimary"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/balkand_title_one"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="॥ बालकाण्डे प्रथम ः सर्गः  ॥"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/balkand_first_adhya_layout_one"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical"
+                android:paddingTop="0dp"
+                tools:ignore="DuplicateIds">
+
+                <TextView
+                    android:id="@+id/balkand_first_adhya_with_sanskrit_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/hind_vadodara_light"
+                    android:padding="2dp"
+                    android:text="श्रीरामः शरणं समस्तजगता बताया
+रामेण प्रतिहल्यते कलिमलें
+रामाय कार्य
+संसार
+रामात् जस्थति कालभीमभुजगो
+वशे
+रामे भक्तिरखण्डिता भवतु मे
+राम त्वमेवाश्रयः ॥१॥"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/balkand_first_adhya_with_hindi_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@color/purple_500"
+                    android:fontFamily="@font/hind_vadodara_light"
+                    android:padding="2dp"
+                    android:text="ओरामचन्द्रजो समस्त संसारको शरण देनेवाले हैं। एतत्सं
+ओउनके बिना दूसरी कौन-सी गति है। औराम कलियुगके कलौ
+समस्त दोर्शको नष्ट कर देते हैं। अतः ओरामचन्द्रजीको
+नमस्कार करना चाहिये। श्रीरामसे कालरूपी भयंकर आपने
+से भी डरता है। जगत्का सब कुछ भगवान् श्रीरामके जायेंगे
+कशाने है। औराममें मेरी अखण्ड भक्ति बनी रहे। हे राम! अधर्मी
+आर हो मेरे आधार हैं।
+"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+               <!-- <TextView
+                    android:id="@+id/balkand_first_adhya_with_sanskrit_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/hind_vadodara_light"
+                    android:padding="2dp"
+                    android:text="श्रीरामः शरणं समस्तजगता बताया
+रामेण प्रतिहल्यते कलिमलें
+रामाय कार्य
+संसार
+रामात् जस्थति कालभीमभुजगो
+वशे
+रामे भक्तिरखण्डिता भवतु मे
+राम त्वमेवाश्रयः ॥१॥"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/balkand_first_adhya_with_hindi_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/purple_500"
+                    android:fontFamily="@font/hind_vadodara_light"
+                    android:padding="2dp"
+                    android:text="ओरामचन्द्रजो समस्त संसारको शरण देनेवाले हैं। एतत्सं
+ओउनके बिना दूसरी कौन-सी गति है। औराम कलियुगके कलौ
+समस्त दोर्शको नष्ट कर देते हैं। अतः ओरामचन्द्रजीको
+नमस्कार करना चाहिये। श्रीरामसे कालरूपी भयंकर आपने
+से भी डरता है। जगत्का सब कुछ भगवान् श्रीरामके जायेंगे
+कशाने है। औराममें मेरी अखण्ड भक्ति बनी रहे। हे राम! अधर्मी
+आर हो मेरे आधार हैं।
+"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/balkand_first_adhya_with_sanskrit_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/hind_vadodara_light"
+                    android:padding="2dp"
+                    android:text="श्रीरामः शरणं समस्तजगता बताया
+रामेण प्रतिहल्यते कलिमलें
+रामाय कार्य
+संसार
+रामात् जस्थति कालभीमभुजगो
+वशे
+रामे भक्तिरखण्डिता भवतु मे
+राम त्वमेवाश्रयः ॥१॥"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/balkand_first_adhya_with_hindi_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/purple_500"
+                    android:fontFamily="@font/hind_vadodara_light"
+                    android:padding="2dp"
+                    android:text="ओरामचन्द्रजो समस्त संसारको शरण देनेवाले हैं। एतत्सं
+ओउनके बिना दूसरी कौन-सी गति है। औराम कलियुगके कलौ
+समस्त दोर्शको नष्ट कर देते हैं। अतः ओरामचन्द्रजीको
+नमस्कार करना चाहिये। श्रीरामसे कालरूपी भयंकर आपने
+से भी डरता है। जगत्का सब कुछ भगवान् श्रीरामके जायेंगे
+कशाने है। औराममें मेरी अखण्ड भक्ति बनी रहे। हे राम! अधर्मी
+आर हो मेरे आधार हैं।
+"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+-->
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+
+                    android:layout_marginEnd="15dp"
+                    android:layout_weight="5"
+                    android:fontFamily="@font/uncial_antiqua"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/white"
+                    android:text="@string/next"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"/>
+                <ImageView
+                    android:id="@+id/balkand_first_adhya_hindi_hide"
+                    android:src="@drawable/question"
+                    android:textColor="@color/white"
+                    android:text="@string/last"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/uncial_antiqua"
+                    android:layout_weight="5"
+                    android:layout_marginStart="15sp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:background="@color/background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
+
+
+                <Button
+                    android:id="@+id/balkand_activity_first_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/spinner_bg"
+                    android:text="@string/first"
+                    android:fontFamily="@font/uncial_antiqua"
+                    android:textStyle="bold"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:background="@drawable/spinner_bg"
+                    android:id="@+id/balkand_activity_prev_btn"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/uncial_antiqua"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:text="@string/prev"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:background="@drawable/spinner_bg"
+                    android:id="@+id/balkand_activity_next_btn"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/uncial_antiqua"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/white"
+                    android:text="@string/next"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:background="@drawable/spinner_bg"
+                    android:id="@+id/balkand_activity_last_btn"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:text="@string/last"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/uncial_antiqua"
+                    android:textStyle="bold"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/balkand_first_adhya_nav_view"
+        android:background="@drawable/custom_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:itemTextColor="@color/white"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

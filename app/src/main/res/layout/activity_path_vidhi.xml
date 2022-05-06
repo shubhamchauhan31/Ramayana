@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/path_vidhi_drawer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="start"
+    tools:context=".activity.PathVidhiActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/path_vidhi_coordinator_layout"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="MissingConstraints">
+
+
+            <LinearLayout
+
+                android:id="@+id/path_vidhi_liner_layout"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/path_vidhi_activity_toolbar"
+                    android:background="@drawable/custom_toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="MissingConstraints,NewApi" >
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+
+                        <TextView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:text=""
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"/>
+
+                        <ImageView
+                            android:id="@+id/path_vidhi_activity_zoom_in"
+                            android:layout_marginStart="20dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_baseline_zoom_in_24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:ignore="RtlCompat" />
+
+                        <ImageView
+                            android:id="@+id/path_vidhi_activity_zoom_out"
+                            android:layout_marginStart="20dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_baseline_zoom_out_24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:ignore="RtlCompat" />
+
+
+                        <ImageView
+                            android:id="@+id/path_vidhi_activity_fav_dhoe"
+                            android:layout_marginStart="20dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_baseline_favorite_24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:ignore="RtlCompat" />
+
+                        <ImageView
+                            android:id="@+id/path_vidhi_activity_search_dhoe"
+                            android:layout_marginStart="20dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_baseline_search_24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:ignore="RtlCompat" />
+
+                    </LinearLayout>
+
+                </androidx.appcompat.widget.Toolbar>
+
+                <TextView
+                    android:padding="10dp"
+                    android:id="@+id/path_vidhi_first_adhya"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/custom_theme"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="प्रथमोऽध्यायः"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+                <LinearLayout
+                    android:id="@+id/path_vidhi_linear_layout_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/border_bg"
+                    android:orientation="vertical"
+                    android:paddingTop="15dp"
+                    tools:ignore="DuplicateIds">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginRight="7dp"
+                        android:layout_marginBottom="7dp"
+                        android:background="@color/purple_200"
+                        android:fontFamily="@font/hind_vadodara_light"
+                        android:padding="10dp"
+                        android:text="श्रीरामः शरणं समस्तजगता बताया
+रामेण प्रतिहल्यते कलिमलें
+रामाय कार्य
+संसार
+रामात् जस्थति कालभीमभुजगो
+वशे
+रामे भक्तिरखण्डिता भवतु मे
+राम त्वमेवाश्रयः ॥१॥"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:fontFamily="@font/hind_vadodara_light"
+                        android:padding="5dp"
+                        android:text="ओरामचन्द्रजो समस्त संसारको शरण देनेवाले हैं। एतत्सं
+ओउनके बिना दूसरी कौन-सी गति है। औराम कलियुगके कलौ
+समस्त दोर्शको नष्ट कर देते हैं। अतः ओरामचन्द्रजीको
+नमस्कार करना चाहिये। श्रीरामसे कालरूपी भयंकर आपने
+से भी डरता है। जगत्का सब कुछ भगवान् श्रीरामके जायेंगे
+कशाने है। औराममें मेरी अखण्ड भक्ति बनी रहे। हे राम! अधर्मी
+आर हो मेरे आधार हैं।
+"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/path_vidhi_liner_layout_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/border_bg"
+                    android:orientation="vertical"
+                    android:paddingTop="15dp"
+                    tools:ignore="DuplicateIds">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginRight="7dp"
+                        android:layout_marginBottom="7dp"
+                        android:background="@color/purple_200"
+                        android:fontFamily="@font/hind_vadodara_light"
+                        android:padding="10dp"
+                        android:text="श्रीरामः शरणं समस्तजगता बताया
+रामेण प्रतिहल्यते कलिमलें
+रामाय कार्य
+संसार
+रामात् जस्थति कालभीमभुजगो
+वशे
+रामे भक्तिरखण्डिता भवतु मे
+राम त्वमेवाश्रयः ॥१॥"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:fontFamily="@font/hind_vadodara_light"
+                        android:padding="5dp"
+                        android:text="ओरामचन्द्रजो समस्त संसारको शरण देनेवाले हैं। एतत्सं
+ओउनके बिना दूसरी कौन-सी गति है। औराम कलियुगके कलौ
+समस्त दोर्शको नष्ट कर देते हैं। अतः ओरामचन्द्रजीको
+नमस्कार करना चाहिये। श्रीरामसे कालरूपी भयंकर आपने
+से भी डरता है। जगत्का सब कुछ भगवान् श्रीरामके जायेंगे
+कशाने है। औराममें मेरी अखण्ड भक्ति बनी रहे। हे राम! अधर्मी
+आर हो मेरे आधार हैं।
+"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/path_vidhi_liner_layout_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/border_bg"
+                    android:orientation="vertical"
+                    android:paddingTop="15dp"
+                    tools:ignore="DuplicateIds">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginRight="7dp"
+                        android:layout_marginBottom="7dp"
+                        android:background="@color/purple_200"
+                        android:fontFamily="@font/hind_vadodara_light"
+                        android:padding="10dp"
+                        android:text="श्रीरामः शरणं समस्तजगता बताया
+रामेण प्रतिहल्यते कलिमलें
+रामाय कार्य
+संसार
+रामात् जस्थति कालभीमभुजगो
+वशे
+रामे भक्तिरखण्डिता भवतु मे
+राम त्वमेवाश्रयः ॥१॥"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:fontFamily="@font/hind_vadodara_light"
+                        android:padding="5dp"
+                        android:text="ओरामचन्द्रजो समस्त संसारको शरण देनेवाले हैं। एतत्सं
+ओउनके बिना दूसरी कौन-सी गति है। औराम कलियुगके कलौ
+समस्त दोर्शको नष्ट कर देते हैं। अतः ओरामचन्द्रजीको
+नमस्कार करना चाहिये। श्रीरामसे कालरूपी भयंकर आपने
+से भी डरता है। जगत्का सब कुछ भगवान् श्रीरामके जायेंगे
+कशाने है। औराममें मेरी अखण्ड भक्ति बनी रहे। हे राम! अधर्मी
+आर हो मेरे आधार हैं।
+"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/path_vidhi_liner_layout_four"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/border_bg"
+                    android:orientation="vertical"
+                    android:paddingTop="15dp"
+                    tools:ignore="DuplicateIds">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginRight="7dp"
+                        android:layout_marginBottom="7dp"
+                        android:background="@color/purple_200"
+                        android:fontFamily="@font/hind_vadodara_light"
+                        android:padding="10dp"
+                        android:text="श्रीरामः शरणं समस्तजगता बताया
+रामेण प्रतिहल्यते कलिमलें
+रामाय कार्य
+संसार
+रामात् जस्थति कालभीमभुजगो
+वशे
+रामे भक्तिरखण्डिता भवतु मे
+राम त्वमेवाश्रयः ॥१॥"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:fontFamily="@font/hind_vadodara_light"
+                        android:padding="5dp"
+                        android:text="ओरामचन्द्रजो समस्त संसारको शरण देनेवाले हैं। एतत्सं
+ओउनके बिना दूसरी कौन-सी गति है। औराम कलियुगके कलौ
+समस्त दोर्शको नष्ट कर देते हैं। अतः ओरामचन्द्रजीको
+नमस्कार करना चाहिये। श्रीरामसे कालरूपी भयंकर आपने
+से भी डरता है। जगत्का सब कुछ भगवान् श्रीरामके जायेंगे
+कशाने है। औराममें मेरी अखण्ड भक्ति बनी रहे। हे राम! अधर्मी
+आर हो मेरे आधार हैं।
+"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/path_vidhi_nav_view"
+        android:background="@drawable/custom_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:itemTextColor="@color/white"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer" />
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

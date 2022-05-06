@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/background"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:src="@drawable/hanuman"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <TextView
+        android:fontFamily="@font/hind_vadodara_light"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:text="सनातन-मार्ग पर ओर अधिक बढ़े"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:text="अत्यधिक प्रसन्नता के साथ आपको जानकारी दे रहे है कि,प्रभु श्रीराम जी से जुड़ी पवित्र राम-कथा पर आधारित एवं चारों वेद, छः शास्त्र, सम्पूर्ण उपनिषद, 18 पुराणों, महाभारत, सम्पूर्ण रामायण तथा श्रीमद्भगवत गीता एवं अन्य अन्य धर्म गर्न्थो पर आधारित, गर्न्थो में छुपे दुर्लभ रहस्यों की जानकारी व ज्ञान इत्यादि के लिए टेलीग्राम पर, प्रतियोगिता के माध्यम से, ज्ञानवर्धन नित्यप्रतिदिन कराया जाता है।"
+        android:fontFamily="@font/hind_vadodara_light"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:text="इसके लिये आप, हमसे जुड़े वाले विकल्प में जाकर, हमारे, टेलीग्राम, You tube व Facebook से जुड़ सकते है"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

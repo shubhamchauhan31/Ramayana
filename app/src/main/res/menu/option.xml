@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <item android:id="@+id/add_to_fav"
+        android:title="Add To Favourite"
+        />
+
+    <item android:id="@+id/share_this_Data"
+        android:title="Share This Data"
+        />
+    <item android:id="@+id/copy_to_clipbord"
+        android:title="Copy To Clipboard"
+        />
+   <!-- <item android:id="@+id/add_book_mark_here"
+        android:title="Add Bookmark Here"
+        />-->
+
+
+</menu>

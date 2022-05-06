@@ -1,0 +1,101 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/balkand_toolbar"
+        android:background="@drawable/custom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints,NewApi" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+          <!--  <ImageView
+                android:id="@+id/balkand_activity_drawar"
+                android:layout_marginStart="0dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_menu_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="RtlCompat" />-->
+            <TextView
+                android:textColor="@color/white"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="बालकाण्डे"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+<LinearLayout
+    android:layout_gravity="end|right"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:gravity="right"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_marginStart="10dp"
+        android:id="@+id/balkand_activity_zoom_in"
+        android:layout_gravity="center"
+        android:src="@drawable/zoom_in"
+        android:layout_marginEnd="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="RtlCompat" />
+    <ImageView
+        android:id="@+id/balkand_activity_zoom_out"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_gravity="center"
+        android:src="@drawable/zoom_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/balkand_activity_fav_dhoe"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/ic_baseline_favorite_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="RtlCompat" />
+    <ImageView
+        android:id="@+id/balkand_activity_color_picker"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"        android:layout_gravity="center"
+        android:visibility="gone"
+        android:src="@drawable/ic_baseline_color_lens_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="RtlCompat" />
+
+
+
+    <ImageView
+        android:id="@+id/balkand_search_dhoe"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_baseline_search_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="RtlCompat" />
+</LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

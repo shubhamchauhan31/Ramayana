@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:padding="2dp"
+        android:id="@+id/custom_layout_aranyakand_liner_layout"
+        android:orientation="vertical"
+        android:background="@drawable/border_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:id="@+id/custom_layout_aranyakand_sanskrit"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:background="@color/purple_200"
+            android:textStyle="bold"
+            android:fontFamily="@font/hind_vadodara_light"
+            android:layout_gravity="center"
+            android:text="श्रीरामः शरणं समस्तजगता
+बताया
+रामेण प्रतिहल्यते कलिमलें
+रामाय कार्य
+संसार
+रामात् जस्थति कालभीमभुजगो
+वशे
+रामे भक्तिरखण्डिता भवतु मे
+राम त्वमेवाश्रयः ॥१॥
+"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/custom_layout_aranyakand_hindi"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:fontFamily="@font/hind_vadodara_light"
+            android:layout_gravity="center"
+            android:text="ओरामचन्द्रजो समस्त संसारको शरण देनेवाले हैं। एतत्सं
+ओउनके बिना दूसरी कौन-सी गति है। औराम कलियुगके कलौ
+समस्त दोर्शको नष्ट कर देते हैं। अतः ओरामचन्द्रजीको
+नमस्कार करना चाहिये। श्रीरामसे कालरूपी भयंकर आपने
+से भी डरता है। जगत्का सब कुछ भगवान् श्रीरामके जायेंगे
+कशाने है। औराममें मेरी अखण्ड भक्ति बनी रहे। हे राम! अधर्मी
+आर हो मेरे आधार हैं।
+"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_marginTop="5dp"
+            android:background="@color/purple_500"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
